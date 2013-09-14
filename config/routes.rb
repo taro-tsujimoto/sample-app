@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "statc_pages/home"
+  get "statc_pages/help"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
