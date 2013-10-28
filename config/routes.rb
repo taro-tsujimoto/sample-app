@@ -1,8 +1,11 @@
 SampleApp::Application.routes.draw do
-  get "statc_pages/home"
-  get "statc_pages/help"
-  get "statc_pages/about"
-  get "statc_pages/contact"
+  get "users/new"
+  
+  root 'statc_pages#home'
+  match '/signup', to: 'users#new', via: 'get'
+  match '/help', to: 'statc_pages#help', via: 'get'
+  match '/about', to: 'statc_pages#about', via: 'get'
+  match '/contact', to: 'statc_pages#contact', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
