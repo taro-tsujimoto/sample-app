@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
@@ -9,6 +9,7 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
+gem 'railties', '4.0.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -32,9 +33,11 @@ group :test do
   gem 'factory_girl_rails', '4.2.1'
 end
 
-gem 'sass-rails', '4.0.0'
+#gem 'sass-rails', '4.0.0'
+gem 'sass-rails'
 gem 'uglifier', '2.1.1'
-gem 'coffee-rails', '4.0.0'
+#gem 'coffee-rails', '4.0.0'
+gem 'coffee-rails'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
