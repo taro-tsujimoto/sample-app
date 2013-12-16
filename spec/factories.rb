@@ -1,4 +1,5 @@
 ﻿#encoding: utf-8
+
 FactoryGirl.define do
 	factory :user do
 		sequence(:name) { |n| "Person #{n}" }
