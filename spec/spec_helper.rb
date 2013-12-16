@@ -1,5 +1,6 @@
-require 'rubygems'
+﻿require 'rubygems'
 require 'spork'
+# encoding: utf-8
 #uncomment the following line to use spork with the debugger
 #require 'spork/ext/ruby-debug'
 

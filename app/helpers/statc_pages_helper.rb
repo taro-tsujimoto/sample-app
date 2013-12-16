@@ -1,2 +1,2 @@
-module StatcPagesHelper
+﻿module StatcPagesHelper
 end
